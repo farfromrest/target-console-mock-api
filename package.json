@@ -10,9 +10,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "dependencies": {
     "express": "^4.15.3",
-    "morgan": "^1.8.2",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
     "nodemon": "^1.11.0"
   }
 }
