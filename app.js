@@ -17,6 +17,10 @@ app.get('/engagement', (req, res) => {
   res.send(require('./data/target/engagement.js'))
 })
 
+app.get('/post_performance', (req, res) => {
+  res.send(require('./data/target/post_performance.js'))
+})
+
 app.listen(PORT, () => {
   console.log(`Target Console Mock API is running at http://127.0.0.1:${PORT}/`)
 })
